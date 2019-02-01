@@ -1,0 +1,141 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    selection-background-color: #9C9C9B;
+}
+QMainWindow,QWidget
+{
+background:#1E1E1E;
+}
+	
+QMenuBar,QMenu
+{
+background:#1E1E1E;
+color:#6D6F6D;
+}
+QMenuBar::item:selected,QMenu::item:selected 
+{
+background:#6D6F6D;
+color:white;
+}
+QMenu::separator {
+    height: 1px;
+    background: #9C9C9B;
+}
+
+
+QTabWidget::tab-bar {
+    background-color: rgb(255,255,255);
+}
+QTabBar::tab {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,0,0);
+}
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,0,0);
+}
+
+QLineEdit,QTextBrowser,QTextEdit,QPlainTextEdit 
+{
+padding: 5px;
+background: #424141;
+color:#9C9C9B;
+}
+
+QCheckBox,QComboBox
+{
+padding: 5;
+background:#4F4F50;
+color:white;
+}
+
+
+
+QToolBox
+{
+background:transparent;
+}
+QToolBox::tab
+{
+background:#6D6F6D;
+color:#A1A2A0;
+}
+QToolBox::tab::selected,QToolBox::tab::hover
+{
+background:#A1A2A0;
+color:white;
+}
+
+
+
+
+QProgressBar {
+text-align: center;
+background-color:white;
+}
+QProgressBar::chunk {
+background-color: rgb(46, 146, 46);
+margin:1px;
+}
+
+
+
+
+QPushButton
+{
+    border-style: none;
+    border: 0px;
+    padding: 5px;
+    color: white;
+    background-color:#6D6F6D;
+}
+
+QPushButton:hover, QPushButton:pressed 
+{
+    background-color: #A1A2A0;
+}
+
+
+
+
+QTreeView,QListView,QTableView
+{
+    selection-color: rgb(255, 255, 255);
+    selection-background-color: rgb(0, 0, 0);
+}
+
+QTableView::item:selected, QListView::item:selected 
+{
+    background-color: rgb(179, 179, 179);
+    border: 2px solid rgb(56, 56, 56);
+    color: rgb(0, 0, 0);
+}
+
+QTableView::item:hover, QListView::item:hover, QTreeView::item:hover 
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(71, 71, 71);
+}
+
+QTableView::item, QListView::item, QTreeView::item 
+{
+    padding: 5px;
+    margin: 0px;
+}
+
+QTreeView::item:selected 
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 228, 228);
+    border: 2px solid rgb(61, 61, 61);
+}
+
+QHeaderView::section 
+{
+    padding:3px;
+    margin:3px;
+    border: transparent;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
