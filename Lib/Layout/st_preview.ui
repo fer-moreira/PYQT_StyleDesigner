@@ -6,29 +6,38 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1058</width>
-    <height>665</height>
+    <width>774</width>
+    <height>601</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>774</width>
+    <height>601</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0" rowspan="4">
+    <item row="0" column="0" rowspan="2">
      <widget class="QTabWidget" name="tabWidget">
-      <property name="maximumSize">
+      <property name="minimumSize">
        <size>
         <width>269</width>
-        <height>402</height>
+        <height>390</height>
        </size>
       </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QTabWidget&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
-        <string>Tab 1</string>
+        <string>Viewers</string>
        </attribute>
        <widget class="QGroupBox" name="groupBox_2">
         <property name="geometry">
@@ -39,6 +48,15 @@
           <height>370</height>
          </rect>
         </property>
+        <property name="minimumSize">
+         <size>
+          <width>260</width>
+          <height>370</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QGroupBox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
         <property name="title">
          <string>GroupBox</string>
         </property>
@@ -48,8 +66,17 @@
            <x>10</x>
            <y>180</y>
            <width>240</width>
-           <height>190</height>
+           <height>180</height>
           </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>240</width>
+           <height>180</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QTableWidget&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="rowCount">
           <number>5</number>
@@ -132,6 +159,15 @@
            <height>150</height>
           </rect>
          </property>
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QListWidget&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
          <item>
           <property name="text">
            <string>LIST</string>
@@ -182,6 +218,15 @@
            <height>150</height>
           </rect>
          </property>
+         <property name="minimumSize">
+          <size>
+           <width>130</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QTreeWidget&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
          <column>
           <property name="text">
            <string>TREE</string>
@@ -222,18 +267,82 @@
       </widget>
       <widget class="QWidget" name="tab_2">
        <attribute name="title">
-        <string>Tab 2</string>
+        <string>Sliders</string>
        </attribute>
+       <widget class="QSlider" name="horizontalSlider">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>180</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>84</width>
+          <height>22</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QSlider&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QSlider" name="verticalSlider">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>20</y>
+          <width>22</width>
+          <height>330</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+       <widget class="QScrollBar" name="verticalScrollBar">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>20</y>
+          <width>16</width>
+          <height>330</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+       <widget class="QScrollBar" name="horizontalScrollBar">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>100</y>
+          <width>180</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
       </widget>
      </widget>
     </item>
-    <item row="0" column="1" rowspan="2">
+    <item row="0" column="1">
      <widget class="QGroupBox" name="groupBox">
-      <property name="maximumSize">
+      <property name="minimumSize">
        <size>
         <width>230</width>
         <height>215</height>
        </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QGroupBox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="title">
        <string>GROUP BOX 1</string>
@@ -246,6 +355,15 @@
          <width>210</width>
          <height>40</height>
         </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>210</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QPushButton&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
         <string>PushButton</string>
@@ -260,6 +378,15 @@
          <height>30</height>
         </rect>
        </property>
+       <property name="minimumSize">
+        <size>
+         <width>210</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QLineEdit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
        <property name="text">
         <string>Line Edit</string>
        </property>
@@ -273,11 +400,20 @@
          <height>40</height>
         </rect>
        </property>
+       <property name="minimumSize">
+        <size>
+         <width>210</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QDialogButtonBox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="standardButtons">
-        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Reset|QDialogButtonBox::Save|QDialogButtonBox::SaveAll</set>
        </property>
        <property name="centerButtons">
         <bool>true</bool>
@@ -291,6 +427,15 @@
          <width>210</width>
          <height>30</height>
         </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>210</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QComboBox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <item>
         <property name="text">
@@ -347,83 +492,76 @@
          <height>30</height>
         </rect>
        </property>
+       <property name="minimumSize">
+        <size>
+         <width>210</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QToolButton&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
        <property name="text">
         <string>...</string>
        </property>
       </widget>
      </widget>
     </item>
-    <item row="0" column="3">
-     <widget class="QPushButton" name="build">
-      <property name="text">
-       <string>BUILD</string>
-      </property>
-      <property name="shortcut">
-       <string>F9</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="4">
-     <widget class="QPushButton" name="import_2">
-      <property name="text">
-       <string>IMPORT</string>
-      </property>
-      <property name="shortcut">
-       <string>Ctrl+W</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="5">
-     <widget class="QPushButton" name="export_2">
-      <property name="text">
-       <string>EXPORT</string>
-      </property>
-      <property name="shortcut">
-       <string>Ctrl+S</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="2">
+    <item row="0" column="2">
      <widget class="QCalendarWidget" name="calendarWidget">
-      <property name="maximumSize">
+      <property name="minimumSize">
        <size>
         <width>250</width>
-        <height>200</height>
+        <height>210</height>
        </size>
       </property>
-     </widget>
-    </item>
-    <item row="1" column="3" rowspan="8" colspan="3">
-     <widget class="QPlainTextEdit" name="input">
-      <property name="plainText">
-       <string/>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QCalendarWidget&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="1">
-     <widget class="QTextEdit" name="textEdit">
-      <property name="maximumSize">
+    <item row="1" column="1">
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="minimumSize">
        <size>
         <width>230</width>
-        <height>71</height>
+        <height>160</height>
        </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QTextBrowser&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Text Edit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;QTextBrowser&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 1&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 2&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 3&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 4&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 5&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 6&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 7&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 8&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 9&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="2" rowspan="2">
+    <item row="1" column="2">
      <widget class="QToolBox" name="toolBox">
-      <property name="maximumSize">
+      <property name="minimumSize">
        <size>
-        <width>251</width>
+        <width>250</width>
         <height>160</height>
        </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QToolBox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
       </property>
       <property name="currentIndex">
        <number>0</number>
@@ -433,8 +571,8 @@ p, li { white-space: pre-wrap; }
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>251</width>
-         <height>106</height>
+         <width>250</width>
+         <height>115</height>
         </rect>
        </property>
        <attribute name="label">
@@ -449,11 +587,14 @@ p, li { white-space: pre-wrap; }
           <height>20</height>
          </rect>
         </property>
-        <property name="maximumSize">
+        <property name="minimumSize">
          <size>
-          <width>320</width>
+          <width>230</width>
           <height>20</height>
          </size>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QProgressBar&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="value">
          <number>24</number>
@@ -468,11 +609,14 @@ p, li { white-space: pre-wrap; }
           <height>20</height>
          </rect>
         </property>
-        <property name="maximumSize">
+        <property name="minimumSize">
          <size>
-          <width>320</width>
+          <width>230</width>
           <height>20</height>
          </size>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QProgressBar&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="value">
          <number>78</number>
@@ -491,15 +635,24 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>60</y>
+          <y>56</y>
           <width>230</width>
           <height>30</height>
          </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>230</width>
+          <height>30</height>
+         </size>
         </property>
         <property name="font">
          <font>
           <pointsize>10</pointsize>
          </font>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QCheckBox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>CheckBox</string>
@@ -512,15 +665,24 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>90</y>
+          <y>86</y>
           <width>230</width>
           <height>20</height>
          </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>230</width>
+          <height>20</height>
+         </size>
         </property>
         <property name="font">
          <font>
           <pointsize>10</pointsize>
          </font>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QRadioButton&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>RadioButton</string>
@@ -535,8 +697,8 @@ p, li { white-space: pre-wrap; }
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>251</width>
-         <height>106</height>
+         <width>250</width>
+         <height>115</height>
         </rect>
        </property>
        <attribute name="label">
@@ -545,26 +707,16 @@ p, li { white-space: pre-wrap; }
       </widget>
      </widget>
     </item>
-    <item row="3" column="1">
-     <widget class="QPlainTextEdit" name="plainTextEdit">
-      <property name="maximumSize">
-       <size>
-        <width>230</width>
-        <height>80</height>
-       </size>
-      </property>
-      <property name="plainText">
-       <string>Plain Text Edit</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0" rowspan="4">
+    <item row="2" column="0" rowspan="5">
      <widget class="QScrollArea" name="scrollArea">
-      <property name="maximumSize">
+      <property name="minimumSize">
        <size>
-        <width>270</width>
+        <width>265</width>
         <height>150</height>
        </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QScrollArea&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="widgetResizable">
        <bool>true</bool>
@@ -574,21 +726,39 @@ p, li { white-space: pre-wrap; }
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>268</width>
-         <height>145</height>
+         <width>263</width>
+         <height>148</height>
         </rect>
        </property>
        <widget class="QCommandLinkButton" name="commandLinkButton">
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>64</y>
+          <y>60</y>
           <width>250</width>
           <height>40</height>
          </rect>
         </property>
+        <property name="minimumSize">
+         <size>
+          <width>250</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QCommandLinkButton&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
         <property name="text">
          <string>CommandLinkButton</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+        <property name="default">
+         <bool>false</bool>
         </property>
        </widget>
        <widget class="QLabel" name="label">
@@ -596,14 +766,23 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>240</width>
+          <width>260</width>
           <height>30</height>
          </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>240</width>
+          <height>30</height>
+         </size>
         </property>
         <property name="font">
          <font>
           <pointsize>14</pointsize>
          </font>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>Scroll Area</string>
@@ -621,120 +800,135 @@ p, li { white-space: pre-wrap; }
           <height>30</height>
          </rect>
         </property>
+        <property name="minimumSize">
+         <size>
+          <width>250</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QTimeEdit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
        </widget>
       </widget>
      </widget>
     </item>
-    <item row="4" column="1" rowspan="4">
-     <widget class="QTextBrowser" name="textBrowser">
-      <property name="maximumSize">
+    <item row="2" column="1" rowspan="2">
+     <widget class="QTextEdit" name="textEdit">
+      <property name="minimumSize">
        <size>
         <width>230</width>
-        <height>150</height>
+        <height>71</height>
        </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QTextEdit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TextBrowser&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;QTextEdit&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 1&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 2&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 3&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 4&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 5&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 6&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 7&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 8&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Example 9&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLCDNumber" name="lcdNumber">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QLCDNumber&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QDateTimeEdit" name="dateTimeEdit">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QDateTimeEdit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" rowspan="3">
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="minimumSize">
+       <size>
+        <width>230</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QPlainTextEdit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="plainText">
+       <string>Plain Text Edit
+Example 1
+Example 2
+Example 3
+Example 4
+Example 5
+Example 6
+Example 7
+Example 8
+Example 9</string>
       </property>
      </widget>
     </item>
     <item row="4" column="2">
-     <widget class="QSpinBox" name="spinBox">
-      <property name="maximumSize">
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="minimumSize">
        <size>
         <width>250</width>
-        <height>30</height>
+        <height>20</height>
        </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QDateEdit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
     <item row="5" column="2">
-     <widget class="QDateTimeEdit" name="dateTimeEdit">
-      <property name="maximumSize">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox">
+      <property name="minimumSize">
        <size>
         <width>250</width>
-        <height>30</height>
+        <height>20</height>
        </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QDoubleSpinBox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
     <item row="6" column="2">
-     <widget class="QDateEdit" name="dateEdit">
-      <property name="maximumSize">
+     <widget class="QSpinBox" name="spinBox">
+      <property name="minimumSize">
        <size>
         <width>250</width>
-        <height>30</height>
+        <height>20</height>
        </size>
       </property>
-     </widget>
-    </item>
-    <item row="7" column="2">
-     <widget class="QDoubleSpinBox" name="doubleSpinBox">
-      <property name="maximumSize">
-       <size>
-        <width>250</width>
-        <height>30</height>
-       </size>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="0">
-     <widget class="QLCDNumber" name="lcdNumber">
-      <property name="maximumSize">
-       <size>
-        <width>270</width>
-        <height>30</height>
-       </size>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="1">
-     <widget class="QScrollBar" name="horizontalScrollBar">
-      <property name="maximumSize">
-       <size>
-        <width>230</width>
-        <height>30</height>
-       </size>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="2">
-     <widget class="QSlider" name="horizontalSlider">
-      <property name="maximumSize">
-       <size>
-        <width>250</width>
-        <height>30</height>
-       </size>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QSpinBox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
@@ -745,7 +939,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1058</width>
+     <width>774</width>
      <height>21</height>
     </rect>
    </property>
@@ -778,8 +972,31 @@ p, li { white-space: pre-wrap; }
     <addaction name="actionHelp"/>
     <addaction name="actionCredits"/>
    </widget>
+   <widget class="QMenu" name="menu1">
+    <property name="title">
+     <string>1</string>
+    </property>
+    <addaction name="action2"/>
+    <addaction name="action3"/>
+    <addaction name="action4"/>
+    <addaction name="action5"/>
+    <addaction name="action6"/>
+   </widget>
+   <widget class="QMenu" name="menu2">
+    <property name="title">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu3">
+    <property name="title">
+     <string>3</string>
+    </property>
+   </widget>
    <addaction name="menuNew"/>
    <addaction name="menuMor"/>
+   <addaction name="menu1"/>
+   <addaction name="menu2"/>
+   <addaction name="menu3"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionCopy">
@@ -845,6 +1062,31 @@ p, li { white-space: pre-wrap; }
   <action name="actionCredits">
    <property name="text">
     <string>Credits</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="action3">
+   <property name="text">
+    <string>3</string>
+   </property>
+  </action>
+  <action name="action4">
+   <property name="text">
+    <string>4</string>
+   </property>
+  </action>
+  <action name="action5">
+   <property name="text">
+    <string>5</string>
+   </property>
+  </action>
+  <action name="action6">
+   <property name="text">
+    <string>6</string>
    </property>
   </action>
  </widget>

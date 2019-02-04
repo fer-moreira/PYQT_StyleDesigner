@@ -6,53 +6,303 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>586</width>
-    <height>565</height>
+    <width>566</width>
+    <height>632</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QPushButton" name="build">
-      <property name="text">
-       <string>BUILD</string>
-      </property>
-      <property name="shortcut">
-       <string>F9</string>
-      </property>
-     </widget>
+   <widget class="QPushButton" name="build">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>170</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>BUILD</string>
+    </property>
+    <property name="shortcut">
+     <string>F9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="import_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>9</y>
+      <width>170</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>IMPORT</string>
+    </property>
+    <property name="shortcut">
+     <string>Ctrl+W</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_btn">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>9</y>
+      <width>180</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>SAVE</string>
+    </property>
+    <property name="shortcut">
+     <string>Ctrl+S</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="input">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>100</y>
+      <width>550</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="plainText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="add_elements">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>50</y>
+      <width>168</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add elements&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>QPushButton</string>
+     </property>
     </item>
-    <item row="0" column="1">
-     <widget class="QPushButton" name="import_2">
-      <property name="text">
-       <string>IMPORT</string>
-      </property>
-      <property name="shortcut">
-       <string>Ctrl+W</string>
-      </property>
-     </widget>
+    <item>
+     <property name="text">
+      <string>QWidget</string>
+     </property>
     </item>
-    <item row="0" column="2">
-     <widget class="QPushButton" name="export_2">
-      <property name="text">
-       <string>EXPORT</string>
-      </property>
-      <property name="shortcut">
-       <string>Ctrl+S</string>
-      </property>
-     </widget>
+    <item>
+     <property name="text">
+      <string>QMainWidget</string>
+     </property>
     </item>
-    <item row="1" column="0" colspan="4">
-     <widget class="QPlainTextEdit" name="input">
-      <property name="plainText">
-       <string/>
-      </property>
-     </widget>
+    <item>
+     <property name="text">
+      <string>QComboBox</string>
+     </property>
     </item>
-   </layout>
+    <item>
+     <property name="text">
+      <string>QToolButton</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QRadioButton</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QCheckBox</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QCommandLinkButton</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QDialogButtonBox</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QListView</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QTreeView</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QTableView</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QColumnView</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QListWidget</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QTreeWidget</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QTableWidget</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="add_color">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>170</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add color&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="maxVisibleItems">
+     <number>20</number>
+    </property>
+    <property name="duplicatesEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="modelColumn">
+     <number>0</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>background-color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>alternate-background-color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>border-color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>border-top-color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>border-right-color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>border-bottom-color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>border-left-color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gridline-color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>selection-color</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>selection-background-color</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="add_resources">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>50</y>
+      <width>180</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;add resources&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Image</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Icon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Logo</string>
+     </property>
+    </item>
+   </widget>
   </widget>
  </widget>
  <resources/>
