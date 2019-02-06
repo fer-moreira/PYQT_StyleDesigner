@@ -7,10 +7,8 @@ from PyQt5 import QtGui
 from Lib.Script.st_preview import Ui_preview
 from Lib.Script.st_editor import Ui_editor
 
-
 app = QApplication(sys.argv)
 app.processEvents()
-
 
 class Editor(QMainWindow,Ui_editor):
     def __init__(self, parent = None):

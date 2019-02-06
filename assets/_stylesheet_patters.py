@@ -14,6 +14,7 @@ QMainWindow,QWidget
 }
 '''
 
+
 _menuBar = '''
 /*  ---------------------------- MENU BAR ---------------------------- */
 QMenuBar,QMenu
