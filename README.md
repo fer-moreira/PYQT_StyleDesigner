@@ -1,2 +1,3 @@
-# PYQT_StyleDesigner
-PYQT Stylesheet designer tool for Stylesheet creation
+# QT Stylesheet Designer
+
+### A Simple QT Stylesheet designer for PYQT/QT Projects made with PYQT
