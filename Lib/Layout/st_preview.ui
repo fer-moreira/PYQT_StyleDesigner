@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>774</width>
-    <height>601</height>
+    <height>709</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -33,7 +33,7 @@
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QTabWidget&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -63,9 +63,9 @@
         <widget class="QTableWidget" name="tableWidget">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>180</y>
-           <width>240</width>
+           <width>260</width>
            <height>180</height>
           </rect>
          </property>
@@ -153,7 +153,7 @@
         <widget class="QListWidget" name="listWidget">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>20</y>
            <width>100</width>
            <height>150</height>
@@ -212,9 +212,9 @@
         <widget class="QTreeWidget" name="treeWidget">
          <property name="geometry">
           <rect>
-           <x>120</x>
+           <x>110</x>
            <y>20</y>
-           <width>130</width>
+           <width>150</width>
            <height>150</height>
           </rect>
          </property>
@@ -236,6 +236,31 @@
           <property name="text">
            <string>New Item</string>
           </property>
+          <item>
+           <property name="text">
+            <string>New Subitem</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>New Item</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>New Subitem</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>New Item</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>New Subitem</string>
+           </property>
+          </item>
          </item>
          <item>
           <property name="text">
@@ -251,16 +276,11 @@
           <property name="text">
            <string>New Item</string>
           </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>New Item</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>New Item</string>
-          </property>
+          <item>
+           <property name="text">
+            <string>New Subitem</string>
+           </property>
+          </item>
          </item>
         </widget>
        </widget>
@@ -437,6 +457,9 @@
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QComboBox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
        <item>
         <property name="text">
          <string>Combo box</string>
@@ -572,7 +595,7 @@ p, li { white-space: pre-wrap; }
          <x>0</x>
          <y>0</y>
          <width>250</width>
-         <height>115</height>
+         <height>118</height>
         </rect>
        </property>
        <attribute name="label">
@@ -727,14 +750,14 @@ p, li { white-space: pre-wrap; }
          <x>0</x>
          <y>0</y>
          <width>263</width>
-         <height>148</height>
+         <height>249</height>
         </rect>
        </property>
        <widget class="QCommandLinkButton" name="commandLinkButton">
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>60</y>
+          <y>50</y>
           <width>250</width>
           <height>40</height>
          </rect>
@@ -767,7 +790,7 @@ p, li { white-space: pre-wrap; }
           <x>0</x>
           <y>0</y>
           <width>260</width>
-          <height>30</height>
+          <height>50</height>
          </rect>
         </property>
         <property name="minimumSize">
@@ -785,7 +808,7 @@ p, li { white-space: pre-wrap; }
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
-         <string>Scroll Area</string>
+         <string>QLabel</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
