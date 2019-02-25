@@ -50,11 +50,16 @@ QTabBar::tab:selected {
 background:rgb(50,50,50);
 color:rgb(200,200,200);
 }
+QTabBar
+{
+background:transparent;
+}
 
 /*  ---------------------------- LINE_EDIT TEXT BROWSER TEXT_EDIT PLAIN_TEXT ---------------------------- */
 QLineEdit,QTextBrowser,QTextEdit,QPlainTextEdit 
 {
 color:rgb(200,200,200);
+background-color:rgb(50,50,50);
 }
 
 /*  ---------------------------- CHECK/COMBO BOX ----------------------------*/
@@ -140,6 +145,11 @@ background:rgb(80,80,80);
 }
 
 /*  ---------------------------- TABLE_LIST_TABLE ---------------------------- */
+QTableView
+{
+    alternate-background-color: rgb(95, 95, 95);
+    alternate-color:rgb();
+}
 QTableView::item:selected, QListView::item:selected 
 {
 color:white;
