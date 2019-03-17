@@ -5,18 +5,16 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog,QMessageBox
 from PyQt5 import QtGui
 
 from Lib.Script.st_preview import Ui_preview
-from Lib.Script.st_editor import Ui_editor
 
 app = QApplication(sys.argv)
 app.processEvents()
 
-class Editor(QMainWindow,Ui_editor):
+class Editor(QMainWindow,Ui_preview):
     def __init__(self, parent = None):
         super(Editor,self).__init__(parent)
         self.setupUi(self)
-        self.show()
+        self.showMaximized()
 
-        self.preview = Preview()
         self.load_style_from_file()
 
         self.build.clicked.connect(self.changeStyle)
@@ -54,17 +52,6 @@ class Editor(QMainWindow,Ui_editor):
     def changeStyle (self):
         _style = str(self.input.toPlainText())
         app.setStyleSheet(_style)
-
-    
-
-# ------------------------------------------------------------------------------------------------------------------------------
-
-class Preview(QMainWindow,Ui_preview):
-    def __init__(self, parent = None):
-        super(Preview,self).__init__(parent)
-        self.setupUi(self)
-        self.show()
-
 
 
 Editor_GUI = Editor()
