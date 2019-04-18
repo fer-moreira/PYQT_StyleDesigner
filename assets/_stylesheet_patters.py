@@ -1,139 +1,275 @@
-_all ='''
-/*  ---------------------------- ALL OTHERS WIDGETS ---------------------------- */
+_all = '''
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    selection-background-color: #9C9C9B;
+
 }
 '''
 
-_mainWidget = '''
-/*  ---------------------------- MAIN WINDOW, WIDGET ---------------------------- */
+_QMainWindow = '''
 QMainWindow,QWidget
 {
+}
+'''
 
+_QMenuBar = '''
+_QMenuBar
+{
+}
+QMenuBar::item:selected
+{
+}
+'''
+
+_QMenu = '''
+QMenu
+{
+}
+QMenu::item:selected 
+{
+}
+QMenu::separator 
+{
+}
+
+'''
+
+_QTabBar = '''
+QTabBar::tab 
+{
+}
+
+QTabBar::tab:selected 
+{
+}
+QTableWidget QTableCornerButton::section 
+{
 }
 '''
 
 
-_menuBar = '''
-/*  ---------------------------- MENU BAR ---------------------------- */
-QMenuBar,QMenu
+_QLineEdit = '''
+QLineEdit
 {
-
 }
-QMenuBar::item:selected,QMenu::item:selected 
+QLineEdit:disabled
 {
-
-}
-QMenu::separator {
-
 }
 '''
 
-_tabWidget = '''
-/*  ---------------------------- TAB WIDGET ---------------------------- */
-QTabWidget::tab-bar 
+_QTextBrowser = '''
+QTextBrowser
 {
-
 }
-QTabBar::tab {
-
-}
-QTabBar::tab:selected, QTabBar::tab:hover {
-
+QTextBrowser:disabled
+{
 }
 '''
 
-_textInput = '''
-/*  ---------------------------- LINE_EDIT TEXT BROWSER TEXT_EDIT PLAIN_TEXT ---------------------------- */
-QLineEdit,QTextBrowser,QTextEdit,QPlainTextEdit 
+_QTextEdit = '''
+QTextEdit
 {
-
+}
+QTextEdit:disabled
+{
 }
 '''
 
-_comboBoxCheckBox = '''
-/*  ---------------------------- CHECK/COMBO BOX ----------------------------*/
-QCheckBox,QComboBox
+_QPlainTextEdit  = '''
+QPlainTextEdit 
 {
-
+}
+QPlainTextEdit :disabled
+{
 }
 '''
 
-_toolBox = '''
-/* ----------------------------  TOOL BOX  ----------------------------  */
-QToolBox
+_QComboBox = '''
+QComboBox 
 {
-
 }
+
+QComboBox:hover
+{
+}
+
+QComboBox:selected
+{
+}
+
+QComboBox::drop-down
+{
+}
+
+QComboBox::down-arrow 
+{
+}
+'''
+
+_QCheckBox = '''
+QCheckBox
+{
+}
+'''
+
+
+_QToolBox = '''
 QToolBox::tab
 {
-
 }
-QToolBox::tab::selected,QToolBox::tab::hover
+QToolBox::tab::selected
 {
-
+}
+QToolBox::tab::hover
+{
 }
 '''
 
-_progressBar = '''
-/*  ---------------------------- PROGRESS BAR ---------------------------- */
-QProgressBar {
-
+_QProgressBar = '''
+QProgressBar 
+{
 }
-QProgressBar::chunk {
-
+QProgressBar::chunk 
+{
 }
 '''
 
-_pushButton = '''
-/*  ---------------------------- PUSHBUTTON ---------------------------- */
+_QPushButton = '''
 QPushButton
 {
-
 }
-QPushButton:hover, QPushButton:pressed 
+QPushButton:hover
 {
-
+}
+QPushButton:pressed
+{
 }
 '''
 
-_lcdNumber = '''
-/*  ----------------------------  LCD NUMBER ---------------------------- */
+_QLCDNumber = '''
 QLCDNumber
 {
-    
 }
 '''
 
-_TableList = '''
-/*  ---------------------------- TABLE_LIST_TABLE ---------------------------- */
-QTreeView,QListView,QTableView
+_QTable = '''
+QTableView,
+QTableWidget,
+QTreeView
 {
-
 }
-QTableView::item:selected, QListView::item:selected 
+QTableView::item:selected, QTableView::item:hover,
+QListView::item:selected , QListView::item:hover,
+QTreeView::item:selected , QTreeView::item:hover 
 {
-
 }
-QTableView::item:hover, QListView::item:hover, QTreeView::item:hover 
+QTableView::item, 
+QListView::item, 
+QTreeView::item
 {
-
 }
-QTableView::item, QListView::item, QTreeView::item 
+QTreeView::item:selected,
+QListView::item:selected,
+QTableView::item:selected
 {
-
 }
-QTreeView::item:selected 
+QTreeView::item:has-children
 {
-
 }
 '''
-
-_headerView = '''
-/*  ---------------------------- HEADER VIEW ---------------------------- */
+_QHeaderView = '''
 QHeaderView::section 
 {
+}
+'''
 
+_QCalendarView = '''
+QCalendarView
+{ 
+}
+QAbstractItemView
+{
+}
+'''
+
+_QSlider = '''
+QSlider::groove:horizontal,QSlider::add-page:horizontal 
+{
+}
+QSlider::sub-page:horizontal 
+{
+}
+QSlider::handle:horizontal 
+{
+}
+QSlider::handle:horizontal:hover 
+{
+}
+QSlider::handle
+{
+}
+QSlider::groove:vertical,QSlider::add-page:vertical,QSlider::sub-page:vertical 
+{
+}
+QSlider::handle:vertical 
+{
+}
+QSlider::handle:vertical:hover 
+{
+}
+'''
+
+_QScrollBar = '''
+QScrollBar::groove:horizontal
+{
+}
+QScrollBar::sub-page:horizontal,QScrollBar::add-page:horizontal  
+{
+}
+QScrollBar::handle:horizontal 
+{
+}
+QScrollBar::handle:horizontal:hover 
+{
+}
+QScrollBar:vertical 
+{
+}
+QScrollBar::handle:vertical 
+{
+}
+QScrollBar::up-arrow:vertical 
+{
+}
+QScrollBar::down-arrow:vertical 
+{
+}
+QScrollBar::sub-line:vertical 
+{
+}
+QScrollBar::add-line:vertical 
+{
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical 
+{
+}
+'''
+
+_QToolBar = '''
+QToolBar 
+{
+}
+QToolBar:separator 
+{
+}
+QToolBar QToolButton 
+{ 
+}
+QToolButton
+{
+}
+QToolButton:hover,QToolButton:pressed     
+{ 
+}
+QMessageBox QLabel
+{
 }
 '''
