@@ -1,0 +1,14 @@
+/*  ---------------------------- ALL OTHERS WIDGETS ---------------------------- */
+*{
+    selection-background-color: rgb(67, 128, 179);
+    selection-color: rgb(255, 255, 255);
+    }
+    
+    /*  ---------------------------- MAIN WINDOW, WIDGET ---------------------------- */
+    QMainWindow,QWidget
+    {
+    color:purple;
+    background:red;
+    }
+    
+    

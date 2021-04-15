@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Preview</class>
+ <widget class="QMainWindow" name="Preview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>601</width>
+    <height>623</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolTip">
+   <string>QMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="toolTip">
+    <string>QWidget</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="toolTip">
+       <string>QTabWidget</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Main Widgets</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QTabWidget" name="tabWidget_2">
+          <property name="minimumSize">
+           <size>
+            <width>298</width>
+            <height>195</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>195</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string>QTabWidget</string>
+          </property>
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <widget class="QWidget" name="tab_3">
+           <property name="toolTip">
+            <string>QWidget</string>
+           </property>
+           <attribute name="title">
+            <string>GroupBox</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <widget class="QRadioButton" name="radioButton">
+              <property name="toolTip">
+               <string>QRadioButton</string>
+              </property>
+              <property name="text">
+               <string>RadioButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QRadioButton" name="radioButton_2">
+              <property name="toolTip">
+               <string>QRadioButton</string>
+              </property>
+              <property name="text">
+               <string>RadioButton</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+              <property name="autoRepeat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QRadioButton" name="radioButton_3">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="toolTip">
+               <string>QRadioButton</string>
+              </property>
+              <property name="text">
+               <string>RadioButton</string>
+              </property>
+              <property name="checkable">
+               <bool>false</bool>
+              </property>
+              <property name="checked">
+               <bool>false</bool>
+              </property>
+              <property name="autoRepeat">
+               <bool>true</bool>
+              </property>
+              <property name="autoExclusive">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QCheckBox" name="checkBox">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="toolTip">
+               <string>QCheckBox</string>
+              </property>
+              <property name="text">
+               <string>CheckBox</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QCheckBox" name="checkBox_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="toolTip">
+               <string>QCheckBox</string>
+              </property>
+              <property name="text">
+               <string>CheckBox</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_4">
+           <property name="toolTip">
+            <string>QWidget</string>
+           </property>
+           <attribute name="title">
+            <string>Text Edit</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
+             <widget class="QTextEdit" name="textEdit">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QTextEdit</string>
+              </property>
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;QTextEdit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLineEdit" name="lineEdit">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QLineEdit</string>
+              </property>
+              <property name="text">
+               <string>QLineEdit</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QPlainTextEdit" name="plainTextEdit">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QPlainTextEdit</string>
+              </property>
+              <property name="plainText">
+               <string>QPlainTextEdit</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_8">
+           <attribute name="title">
+            <string>Misc</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_10">
+            <item row="0" column="0" colspan="2">
+             <widget class="QLineEdit" name="lineEdit_2">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QLineEdit</string>
+              </property>
+              <property name="text">
+               <string>123456</string>
+              </property>
+              <property name="echoMode">
+               <enum>QLineEdit::Password</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QProgressBar" name="progressBar">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QProgressBar</string>
+              </property>
+              <property name="value">
+               <number>24</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1" rowspan="2">
+             <widget class="QDial" name="dial">
+              <property name="toolTip">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QDial&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QScrollBar" name="horizontalScrollBar">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QScrollBar&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QTabWidget" name="tabWidget_3">
+          <property name="toolTip">
+           <string>QTabWidget</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="Tex">
+           <property name="toolTip">
+            <string>QWidget</string>
+           </property>
+           <attribute name="title">
+            <string>Buttons</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="4" column="0">
+             <widget class="QToolButton" name="toolButton">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>262</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QToolButton</string>
+              </property>
+              <property name="text">
+               <string>... Tool ...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QPushButton" name="pushButton_2">
+              <property name="minimumSize">
+               <size>
+                <width>240</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QPushButton</string>
+              </property>
+              <property name="text">
+               <string>PushButton Flat</string>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QPushButton" name="pushButton_3">
+              <property name="minimumSize">
+               <size>
+                <width>240</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QPushButton</string>
+              </property>
+              <property name="text">
+               <string>PushButton Default</string>
+              </property>
+              <property name="default">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QDialogButtonBox" name="buttonBox">
+              <property name="minimumSize">
+               <size>
+                <width>240</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QDiaogButtonBox</string>
+              </property>
+              <property name="standardButtons">
+               <set>QDialogButtonBox::Cancel|QDialogButtonBox::Discard|QDialogButtonBox::Ok</set>
+              </property>
+              <property name="centerButtons">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QPushButton" name="pushButton_4">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>240</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QPushButton</string>
+              </property>
+              <property name="text">
+               <string>PushButton Disabled</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QPushButton" name="pushButton">
+              <property name="minimumSize">
+               <size>
+                <width>240</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QPushButton</string>
+              </property>
+              <property name="text">
+               <string>PushButton Normal</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QCommandLinkButton" name="commandLinkButton">
+              <property name="minimumSize">
+               <size>
+                <width>240</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QCommandLinkButton</string>
+              </property>
+              <property name="text">
+               <string>Command Link Button</string>
+              </property>
+              <property name="autoDefault">
+               <bool>false</bool>
+              </property>
+              <property name="default">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_5">
+           <property name="toolTip">
+            <string>QWidget</string>
+           </property>
+           <attribute name="title">
+            <string>Tab Edit</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_11">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="tableWidget">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>400</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>QTableWidget</string>
+              </property>
+              <property name="alternatingRowColors">
+               <bool>true</bool>
+              </property>
+              <property name="verticalScrollMode">
+               <enum>QAbstractItemView::ScrollPerPixel</enum>
+              </property>
+              <property name="horizontalScrollMode">
+               <enum>QAbstractItemView::ScrollPerPixel</enum>
+              </property>
+              <property name="showGrid">
+               <bool>true</bool>
+              </property>
+              <property name="gridStyle">
+               <enum>Qt::SolidLine</enum>
+              </property>
+              <property name="sortingEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="columnCount">
+               <number>10</number>
+              </property>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>New Row</string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>New Column</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>New Column</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>New Column</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>New Column</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>New Column</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>New Column</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>New Column</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>New Column</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>New Column</string>
+               </property>
+              </column>
+              <column/>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item row="0" column="1" rowspan="2">
+         <widget class="QTabWidget" name="tabWidget_4">
+          <property name="toolTip">
+           <string>QTabWidget</string>
+          </property>
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <widget class="QWidget" name="tab_6">
+           <property name="toolTip">
+            <string>QWidget</string>
+           </property>
+           <attribute name="title">
+            <string>Items</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_8">
+            <item row="0" column="0">
+             <widget class="QListWidget" name="listWidget">
+              <property name="toolTip">
+               <string>QListWidget</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>QListView</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>QListWidget</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QTreeWidget" name="treeWidget">
+              <property name="toolTip">
+               <string>QTreeWidget</string>
+              </property>
+              <column>
+               <property name="text">
+                <string>QTreeWidget</string>
+               </property>
+              </column>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QTableWidget" name="tableWidget_2">
+              <property name="toolTip">
+               <string>QTableWidget</string>
+              </property>
+              <property name="rowCount">
+               <number>6</number>
+              </property>
+              <property name="columnCount">
+               <number>8</number>
+              </property>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <column/>
+              <column/>
+              <column/>
+              <column/>
+              <column/>
+              <column/>
+              <column/>
+              <column/>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_7">
+           <property name="toolTip">
+            <string>QWidget</string>
+           </property>
+           <attribute name="title">
+            <string>Views</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_9">
+            <item row="0" column="0">
+             <widget class="QListView" name="listView">
+              <property name="toolTip">
+               <string>QListView</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QTreeView" name="treeView">
+              <property name="toolTip">
+               <string>QTreeView</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QTableView" name="tableView">
+              <property name="toolTip">
+               <string>QTableView</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QColumnView" name="columnView">
+              <property name="toolTip">
+               <string>QColumnView</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <property name="toolTip">
+        <string>QWidget</string>
+       </property>
+       <attribute name="title">
+        <string>Misc Widgets</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_16">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QGroupBox" name="groupBox">
+          <property name="minimumSize">
+           <size>
+            <width>561</width>
+            <height>251</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string>QGroupBox</string>
+          </property>
+          <property name="title">
+           <string>Containers</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="0">
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="minimumSize">
+              <size>
+               <width>541</width>
+               <height>218</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>QScrollArea</string>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>573</width>
+                <height>295</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_6">
+               <item row="0" column="0">
+                <widget class="QToolBox" name="toolBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>140</width>
+                   <height>190</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>QToolBox</string>
+                 </property>
+                 <property name="currentIndex">
+                  <number>1</number>
+                 </property>
+                 <widget class="QWidget" name="page">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>158</width>
+                    <height>155</height>
+                   </rect>
+                  </property>
+                  <property name="toolTip">
+                   <string>QWidget</string>
+                  </property>
+                  <attribute name="label">
+                   <string>Page 1</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_12">
+                   <item row="0" column="0">
+                    <widget class="QProgressBar" name="progressBar_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>140</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="toolTip">
+                      <string>QProgressBar</string>
+                     </property>
+                     <property name="value">
+                      <number>24</number>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QProgressBar" name="progressBar_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>140</width>
+                       <height>101</height>
+                      </size>
+                     </property>
+                     <property name="toolTip">
+                      <string>QProgressBar</string>
+                     </property>
+                     <property name="value">
+                      <number>63</number>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="textDirection">
+                      <enum>QProgressBar::TopToBottom</enum>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>140</width>
+                    <height>223</height>
+                   </rect>
+                  </property>
+                  <property name="toolTip">
+                   <string>QWidget</string>
+                  </property>
+                  <attribute name="label">
+                   <string>Page 2</string>
+                  </attribute>
+                 </widget>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QStackedWidget" name="stackedWidget">
+                 <property name="minimumSize">
+                  <size>
+                   <width>120</width>
+                   <height>190</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>QStackedWidget</string>
+                 </property>
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <widget class="QWidget" name="page_3">
+                  <property name="toolTip">
+                   <string>QWidget</string>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_17">
+                   <item row="0" column="0">
+                    <widget class="QLCDNumber" name="lcdNumber">
+                     <property name="toolTip">
+                      <string>QLCDNumber</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QProgressBar" name="progressBar_4">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="toolTip">
+                      <string>QProgressBar</string>
+                     </property>
+                     <property name="value">
+                      <number>61</number>
+                     </property>
+                     <property name="textVisible">
+                      <bool>false</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="Line" name="line">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <property name="toolTip">
+                      <string>Line</string>
+                     </property>
+                     <property name="lineWidth">
+                      <number>6</number>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_4">
+                  <property name="toolTip">
+                   <string>QWidget</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QFrame" name="frame">
+                 <property name="minimumSize">
+                  <size>
+                   <width>110</width>
+                   <height>190</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>QFrame</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_13">
+                  <item row="0" column="0">
+                   <widget class="QGraphicsView" name="graphicsView">
+                    <property name="toolTip">
+                     <string>QGraphicsView</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QWidget" name="widget" native="true">
+                 <property name="minimumSize">
+                  <size>
+                   <width>110</width>
+                   <height>190</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>QWidget</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_14">
+                  <item row="0" column="0">
+                   <widget class="QOpenGLWidget" name="openGLWidget">
+                    <property name="toolTip">
+                     <string>QOpenGLWidget</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="minimumSize">
+           <size>
+            <width>560</width>
+            <height>260</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string>QGroupBox</string>
+          </property>
+          <property name="title">
+           <string>Inputs box</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_15">
+           <property name="leftMargin">
+            <number>9</number>
+           </property>
+           <property name="topMargin">
+            <number>9</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QComboBox" name="comboBox">
+             <property name="minimumSize">
+              <size>
+               <width>260</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>QComboBox</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>New Item</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>New Item</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>New Item</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>New Item</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>New Item</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>New Item</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>New Item</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>New Item</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="0" column="1" rowspan="6">
+            <widget class="QCalendarWidget" name="calendarWidget">
+             <property name="toolTip">
+              <string>QCalendarWidget</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QFontComboBox" name="fontComboBox">
+             <property name="minimumSize">
+              <size>
+               <width>260</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>QFontComboBox</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QTimeEdit" name="timeEdit">
+             <property name="minimumSize">
+              <size>
+               <width>260</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>QTimeEdit</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QDateEdit" name="dateEdit">
+             <property name="minimumSize">
+              <size>
+               <width>260</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QSpinBox" name="spinBox">
+             <property name="minimumSize">
+              <size>
+               <width>260</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>QSpinBox</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QDateTimeEdit" name="dateTimeEdit">
+             <property name="minimumSize">
+              <size>
+               <width>260</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="toolTip">
+    <string>QStatusBar</string>
+   </property>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionBuild">
+   <property name="text">
+    <string>Build</string>
+   </property>
+  </action>
+  <action name="actionDocs">
+   <property name="text">
+    <string>Docs</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionInfo">
+   <property name="text">
+    <string>Info</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>dial</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>progressBar</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>160</x>
+     <y>151</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dial</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalScrollBar</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>120</x>
+     <y>195</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>progressBar_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>timeEdit</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>110</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>109</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
