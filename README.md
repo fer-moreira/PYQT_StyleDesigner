@@ -6,3 +6,13 @@ You can import you css/qss/txt file or save </br>
 Click in "BUILD" to preview you changes
 
 ![Print](.github/print.PNG)
+
+<br>
+<br>
+
+# Running
+
+```
+$ pip install pyqt5 pyqt5-tools json
+$ python app.py config.json
+```
